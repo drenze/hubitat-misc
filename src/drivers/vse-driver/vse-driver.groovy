@@ -17,16 +17,14 @@
 metadata {
     // TODO: importUrl required?
     definition(
-        name: "Enabled Virtual Switch",
+        name: "Virtual Switch Enabler",
         namespace: "net.devizo.vsed",
         author: "Douglas J. Renze",
         parent: "net.devizo.vsed",
-        description: "Do not install directly; use Enabled Virtual Switch app instead.",
         category: "convenience"
     ) {
         capability "Switch"
         capability "Refresh"
-        capability "Actuator"
     }
 }
 
